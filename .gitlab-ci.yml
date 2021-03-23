@@ -1,0 +1,17 @@
+master:
+    script:
+        - mvn source:jar deploy -B -U -DforkCount=0
+    tags:
+        - mvn
+    only:
+        - master
+
+branches:
+    script:
+        - mvn test -B -DforkCount=0
+    tags:
+        - mvn
+    only:
+        - branches
+    except:
+        - master
