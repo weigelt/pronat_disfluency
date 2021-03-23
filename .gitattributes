@@ -1,3 +1,5 @@
 #Set the default behavior, in case people don't have core.autocrlf set.
 * text eol=lf
 *.tagger binary
+*.net binary
+glove*.txt binary
