@@ -10,13 +10,6 @@
     <artifactId>disfluency_analyzer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Disfluency Analyzer</name>
-    <repositories>
-        <repository>
-            <id>ipdNexus-public-releases</id>
-            <name>IPD-Repository</name>
-            <url>http://bob.ipd.kit.edu/nexus/repository/maven-public-releases</url>
-        </repository>
-    </repositories>
     <build>
         <plugins>
             <plugin>
