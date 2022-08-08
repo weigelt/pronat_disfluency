@@ -79,3 +79,7 @@ _ReSharper.*
 *.iml
 *.eml
 /out/
+
+glove.twitter.27B.50d.txt
+glove.6B.50d.txt
+
